@@ -7,20 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8AB159BE29C58CB1002D4104 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB159BD29C58CB1002D4104 /* AppDelegate.swift */; };
-		8AB159C029C58CB1002D4104 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB159BF29C58CB1002D4104 /* SceneDelegate.swift */; };
-		8AB159C229C58CB1002D4104 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB159C129C58CB1002D4104 /* ViewController.swift */; };
-		8AB159C529C58CB1002D4104 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AB159C329C58CB1002D4104 /* Main.storyboard */; };
+		8A9886DB29C58EC5009D6F26 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9886D629C58EC5009D6F26 /* Constant.swift */; };
+		8A9886DC29C58EC5009D6F26 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9886D729C58EC5009D6F26 /* UIViewController+Extension.swift */; };
+		8A9886F229C58ECB009D6F26 /* NetworkResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9886E029C58ECB009D6F26 /* NetworkResult.swift */; };
+		8A9886F329C58ECB009D6F26 /* GenericResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9886E129C58ECB009D6F26 /* GenericResponse.swift */; };
+		8A9886F429C58ECB009D6F26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9886E329C58ECB009D6F26 /* ViewController.swift */; };
+		8A9886F529C58ECB009D6F26 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9886E529C58ECB009D6F26 /* HomeViewController.swift */; };
+		8A9886F729C58ECB009D6F26 /* ExploreMembersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9886E929C58ECB009D6F26 /* ExploreMembersViewController.swift */; };
+		8A9886F829C58ECB009D6F26 /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9886EB29C58ECB009D6F26 /* MyPageViewController.swift */; };
+		8A9886F929C58ECB009D6F26 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9886ED29C58ECB009D6F26 /* LoginViewController.swift */; };
+		8A9886FA29C58ECB009D6F26 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9886EE29C58ECB009D6F26 /* TabBarController.swift */; };
+		8A9886FB29C58ECB009D6F26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9886EF29C58ECB009D6F26 /* AppDelegate.swift */; };
+		8A9886FC29C58ECB009D6F26 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9886F129C58ECB009D6F26 /* SceneDelegate.swift */; };
+		8A9886FF29C58FB5009D6F26 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 8A9886FE29C58FB5009D6F26 /* SnapKit */; };
+		8A98870229C58FC0009D6F26 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = 8A98870129C58FC0009D6F26 /* Then */; };
+		8A98870529C59064009D6F26 /* CombineMoya in Frameworks */ = {isa = PBXBuildFile; productRef = 8A98870429C59064009D6F26 /* CombineMoya */; };
+		8A98870729C59064009D6F26 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = 8A98870629C59064009D6F26 /* Moya */; };
+		8A98870929C59064009D6F26 /* ReactiveMoya in Frameworks */ = {isa = PBXBuildFile; productRef = 8A98870829C59064009D6F26 /* ReactiveMoya */; };
+		8A98870B29C59064009D6F26 /* RxMoya in Frameworks */ = {isa = PBXBuildFile; productRef = 8A98870A29C59064009D6F26 /* RxMoya */; };
+		8A98870D29C5926F009D6F26 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 8A98870C29C5926F009D6F26 /* .gitignore */; };
 		8AB159C729C58CB1002D4104 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AB159C629C58CB1002D4104 /* Assets.xcassets */; };
 		8AB159CA29C58CB1002D4104 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AB159C829C58CB1002D4104 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8A9886D629C58EC5009D6F26 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		8A9886D729C58EC5009D6F26 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		8A9886E029C58ECB009D6F26 /* NetworkResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkResult.swift; sourceTree = "<group>"; };
+		8A9886E129C58ECB009D6F26 /* GenericResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericResponse.swift; sourceTree = "<group>"; };
+		8A9886E329C58ECB009D6F26 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8A9886E529C58ECB009D6F26 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8A9886E929C58ECB009D6F26 /* ExploreMembersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExploreMembersViewController.swift; sourceTree = "<group>"; };
+		8A9886EB29C58ECB009D6F26 /* MyPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
+		8A9886ED29C58ECB009D6F26 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		8A9886EE29C58ECB009D6F26 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		8A9886EF29C58ECB009D6F26 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8A9886F129C58ECB009D6F26 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8A98870C29C5926F009D6F26 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		8AB159BA29C58CB1002D4104 /* MoaMoa-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MoaMoa-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8AB159BD29C58CB1002D4104 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8AB159BF29C58CB1002D4104 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8AB159C129C58CB1002D4104 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8AB159C429C58CB1002D4104 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8AB159C629C58CB1002D4104 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8AB159C929C58CB1002D4104 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8AB159CB29C58CB1002D4104 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -31,15 +55,129 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A98870B29C59064009D6F26 /* RxMoya in Frameworks */,
+				8A9886FF29C58FB5009D6F26 /* SnapKit in Frameworks */,
+				8A98870229C58FC0009D6F26 /* Then in Frameworks */,
+				8A98870729C59064009D6F26 /* Moya in Frameworks */,
+				8A98870929C59064009D6F26 /* ReactiveMoya in Frameworks */,
+				8A98870529C59064009D6F26 /* CombineMoya in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8A9886D429C58EC5009D6F26 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8A9886D529C58EC5009D6F26 /* Extensions */,
+				8A9886D829C58EC5009D6F26 /* Fonts */,
+				8A9886D929C58EC5009D6F26 /* Assets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8A9886D529C58EC5009D6F26 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8A9886D629C58EC5009D6F26 /* Constant.swift */,
+				8A9886D729C58EC5009D6F26 /* UIViewController+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8A9886D829C58EC5009D6F26 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		8A9886D929C58EC5009D6F26 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				8AB159C629C58CB1002D4104 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		8A9886DE29C58ECB009D6F26 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				8A9886DF29C58ECB009D6F26 /* Models */,
+				8A9886E229C58ECB009D6F26 /* ViewControllers */,
+				8A9886F029C58ECB009D6F26 /* Views */,
+				8A9886F129C58ECB009D6F26 /* SceneDelegate.swift */,
+				8A9886EF29C58ECB009D6F26 /* AppDelegate.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		8A9886DF29C58ECB009D6F26 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8A9886E029C58ECB009D6F26 /* NetworkResult.swift */,
+				8A9886E129C58ECB009D6F26 /* GenericResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8A9886E229C58ECB009D6F26 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8A9886E329C58ECB009D6F26 /* ViewController.swift */,
+				8A9886E429C58ECB009D6F26 /* HomeView */,
+				8A9886E829C58ECB009D6F26 /* ExploreMembersView */,
+				8A9886EA29C58ECB009D6F26 /* MyPageView */,
+				8A9886EC29C58ECB009D6F26 /* LoginView */,
+				8A9886EE29C58ECB009D6F26 /* TabBarController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8A9886E429C58ECB009D6F26 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				8A9886E529C58ECB009D6F26 /* HomeViewController.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		8A9886E829C58ECB009D6F26 /* ExploreMembersView */ = {
+			isa = PBXGroup;
+			children = (
+				8A9886E929C58ECB009D6F26 /* ExploreMembersViewController.swift */,
+			);
+			path = ExploreMembersView;
+			sourceTree = "<group>";
+		};
+		8A9886EA29C58ECB009D6F26 /* MyPageView */ = {
+			isa = PBXGroup;
+			children = (
+				8A9886EB29C58ECB009D6F26 /* MyPageViewController.swift */,
+			);
+			path = MyPageView;
+			sourceTree = "<group>";
+		};
+		8A9886EC29C58ECB009D6F26 /* LoginView */ = {
+			isa = PBXGroup;
+			children = (
+				8A9886ED29C58ECB009D6F26 /* LoginViewController.swift */,
+			);
+			path = LoginView;
+			sourceTree = "<group>";
+		};
+		8A9886F029C58ECB009D6F26 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		8AB159B129C58CB1002D4104 = {
 			isa = PBXGroup;
 			children = (
+				8A98870C29C5926F009D6F26 /* .gitignore */,
 				8AB159BC29C58CB1002D4104 /* MoaMoa-ios */,
 				8AB159BB29C58CB1002D4104 /* Products */,
 			);
@@ -56,11 +194,8 @@
 		8AB159BC29C58CB1002D4104 /* MoaMoa-ios */ = {
 			isa = PBXGroup;
 			children = (
-				8AB159BD29C58CB1002D4104 /* AppDelegate.swift */,
-				8AB159BF29C58CB1002D4104 /* SceneDelegate.swift */,
-				8AB159C129C58CB1002D4104 /* ViewController.swift */,
-				8AB159C329C58CB1002D4104 /* Main.storyboard */,
-				8AB159C629C58CB1002D4104 /* Assets.xcassets */,
+				8A9886DE29C58ECB009D6F26 /* Sources */,
+				8A9886D429C58EC5009D6F26 /* Resources */,
 				8AB159C829C58CB1002D4104 /* LaunchScreen.storyboard */,
 				8AB159CB29C58CB1002D4104 /* Info.plist */,
 			);
@@ -83,6 +218,14 @@
 			dependencies = (
 			);
 			name = "MoaMoa-ios";
+			packageProductDependencies = (
+				8A9886FE29C58FB5009D6F26 /* SnapKit */,
+				8A98870129C58FC0009D6F26 /* Then */,
+				8A98870429C59064009D6F26 /* CombineMoya */,
+				8A98870629C59064009D6F26 /* Moya */,
+				8A98870829C59064009D6F26 /* ReactiveMoya */,
+				8A98870A29C59064009D6F26 /* RxMoya */,
+			);
 			productName = "MoaMoa-ios";
 			productReference = 8AB159BA29C58CB1002D4104 /* MoaMoa-ios.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +254,11 @@
 				Base,
 			);
 			mainGroup = 8AB159B129C58CB1002D4104;
+			packageReferences = (
+				8A9886FD29C58FB5009D6F26 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				8A98870029C58FC0009D6F26 /* XCRemoteSwiftPackageReference "Then" */,
+				8A98870329C59064009D6F26 /* XCRemoteSwiftPackageReference "Moya" */,
+			);
 			productRefGroup = 8AB159BB29C58CB1002D4104 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,8 +274,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8AB159CA29C58CB1002D4104 /* LaunchScreen.storyboard in Resources */,
+				8A98870D29C5926F009D6F26 /* .gitignore in Resources */,
 				8AB159C729C58CB1002D4104 /* Assets.xcassets in Resources */,
-				8AB159C529C58CB1002D4104 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +286,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8AB159C229C58CB1002D4104 /* ViewController.swift in Sources */,
-				8AB159BE29C58CB1002D4104 /* AppDelegate.swift in Sources */,
-				8AB159C029C58CB1002D4104 /* SceneDelegate.swift in Sources */,
+				8A9886F729C58ECB009D6F26 /* ExploreMembersViewController.swift in Sources */,
+				8A9886FB29C58ECB009D6F26 /* AppDelegate.swift in Sources */,
+				8A9886F229C58ECB009D6F26 /* NetworkResult.swift in Sources */,
+				8A9886FC29C58ECB009D6F26 /* SceneDelegate.swift in Sources */,
+				8A9886DC29C58EC5009D6F26 /* UIViewController+Extension.swift in Sources */,
+				8A9886F829C58ECB009D6F26 /* MyPageViewController.swift in Sources */,
+				8A9886F529C58ECB009D6F26 /* HomeViewController.swift in Sources */,
+				8A9886DB29C58EC5009D6F26 /* Constant.swift in Sources */,
+				8A9886F429C58ECB009D6F26 /* ViewController.swift in Sources */,
+				8A9886FA29C58ECB009D6F26 /* TabBarController.swift in Sources */,
+				8A9886F929C58ECB009D6F26 /* LoginViewController.swift in Sources */,
+				8A9886F329C58ECB009D6F26 /* GenericResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8AB159C329C58CB1002D4104 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8AB159C429C58CB1002D4104 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8AB159C829C58CB1002D4104 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,7 +441,6 @@
 				INFOPLIST_FILE = "MoaMoa-ios/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +468,6 @@
 				INFOPLIST_FILE = "MoaMoa-ios/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -358,6 +505,66 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8A9886FD29C58FB5009D6F26 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+		8A98870029C58FC0009D6F26 /* XCRemoteSwiftPackageReference "Then" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devxoul/Then";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		8A98870329C59064009D6F26 /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8A9886FE29C58FB5009D6F26 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8A9886FD29C58FB5009D6F26 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		8A98870129C58FC0009D6F26 /* Then */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8A98870029C58FC0009D6F26 /* XCRemoteSwiftPackageReference "Then" */;
+			productName = Then;
+		};
+		8A98870429C59064009D6F26 /* CombineMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8A98870329C59064009D6F26 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = CombineMoya;
+		};
+		8A98870629C59064009D6F26 /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8A98870329C59064009D6F26 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+		8A98870829C59064009D6F26 /* ReactiveMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8A98870329C59064009D6F26 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = ReactiveMoya;
+		};
+		8A98870A29C59064009D6F26 /* RxMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8A98870329C59064009D6F26 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = RxMoya;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8AB159B229C58CB1002D4104 /* Project object */;
 }
