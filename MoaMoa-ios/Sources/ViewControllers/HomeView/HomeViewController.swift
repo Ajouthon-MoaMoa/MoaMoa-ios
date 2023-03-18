@@ -28,7 +28,7 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
     }
     lazy var circleImageView = UIImageView().then {
         $0.backgroundColor = .systemGray3
-        //$0.image = UIImage(named: "")
+        $0.image = UIImage(named: "hello")
         $0.contentMode = .scaleAspectFill
         $0.clipsToBounds = true
         $0.layer.cornerRadius = 25
@@ -128,19 +128,19 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
         }
         titleLabel.snp.makeConstraints {
             $0.top.equalTo(logoLabel.snp.bottom).offset(30)
-            $0.leading.equalTo(view.safeAreaLayoutGuide).inset(37)
+            $0.leading.equalTo(view.safeAreaLayoutGuide).inset(35)
             $0.width.equalTo(Constant.width * 290)
             $0.height.equalTo(Constant.height * 80)
         }
         profileView.snp.makeConstraints {
             $0.top.equalTo(titleLabel.snp.bottom).offset(10)
-            $0.leading.equalTo(view.safeAreaLayoutGuide).inset(37)
+            $0.leading.equalTo(view.safeAreaLayoutGuide).inset(35)
             $0.width.equalTo(Constant.width * 315)
             $0.height.equalTo(Constant.height * 80)
         }
         scrollView.snp.makeConstraints {
             $0.top.equalTo(subtitleLabel.snp.bottom).offset(10)
-            $0.leading.equalTo(view.safeAreaLayoutGuide).inset(37)
+            $0.leading.equalTo(view.safeAreaLayoutGuide).inset(35)
             $0.width.equalTo(Constant.width * 315)
             $0.height.equalTo(Constant.height * 120)
         }
@@ -171,7 +171,7 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
         }
         realTimeTableView.snp.makeConstraints {
             $0.top.equalTo(subtitle2Label.snp.bottom).offset(10)
-            $0.leading.equalTo(view.safeAreaLayoutGuide).inset(37)
+            $0.leading.equalTo(view.safeAreaLayoutGuide).inset(35)
             $0.width.equalTo(Constant.width * 315)
             $0.height.equalTo(Constant.height * 300)
         }
@@ -195,13 +195,13 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
         }
         subtitleLabel.snp.makeConstraints{
             $0.top.equalTo(profileView.snp.bottom).offset(10)
-            $0.leading.equalTo(view.safeAreaLayoutGuide).inset(37)
+            $0.leading.equalTo(view.safeAreaLayoutGuide).inset(35)
             $0.width.equalTo(Constant.width * 290)
             $0.height.equalTo(Constant.height * 60)
         }
         subtitle2Label.snp.makeConstraints{
             $0.top.equalTo(firstBtn.snp.bottom).offset(10)
-            $0.leading.equalTo(view.safeAreaLayoutGuide).inset(37)
+            $0.leading.equalTo(view.safeAreaLayoutGuide).inset(35)
             $0.width.equalTo(Constant.width * 290)
             $0.height.equalTo(Constant.height * 60)
         }

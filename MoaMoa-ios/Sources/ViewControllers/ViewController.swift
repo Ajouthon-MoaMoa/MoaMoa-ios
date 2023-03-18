@@ -60,9 +60,9 @@ class ViewController: UIViewController {
 
     @objc
     func loginBtnTapped() {
-        let loginViewController = LoginViewController()
+       /* let loginViewController = LoginViewController()
         navigationController?.pushViewController(loginViewController, animated: false)
-    }
+    */}
 
     @objc
     func homeBtnTapped() {
