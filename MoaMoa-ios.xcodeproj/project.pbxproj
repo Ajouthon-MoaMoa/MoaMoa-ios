@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07131AD329C5B0F000BACFC0 /* RealTimeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07131AD229C5B0F000BACFC0 /* RealTimeCell.swift */; };
 		8A9886DB29C58EC5009D6F26 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9886D629C58EC5009D6F26 /* Constant.swift */; };
 		8A9886DC29C58EC5009D6F26 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9886D729C58EC5009D6F26 /* UIViewController+Extension.swift */; };
 		8A9886F229C58ECB009D6F26 /* NetworkResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9886E029C58ECB009D6F26 /* NetworkResult.swift */; };
@@ -31,6 +32,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		07131AD229C5B0F000BACFC0 /* RealTimeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealTimeCell.swift; sourceTree = "<group>"; };
 		8A9886D629C58EC5009D6F26 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		8A9886D729C58EC5009D6F26 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 		8A9886E029C58ECB009D6F26 /* NetworkResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkResult.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 			children = (
 				8A9886E029C58ECB009D6F26 /* NetworkResult.swift */,
 				8A9886E129C58ECB009D6F26 /* GenericResponse.swift */,
+				07131AD229C5B0F000BACFC0 /* RealTimeCell.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -290,6 +293,7 @@
 				8A9886FB29C58ECB009D6F26 /* AppDelegate.swift in Sources */,
 				8A9886F229C58ECB009D6F26 /* NetworkResult.swift in Sources */,
 				8A9886FC29C58ECB009D6F26 /* SceneDelegate.swift in Sources */,
+				07131AD329C5B0F000BACFC0 /* RealTimeCell.swift in Sources */,
 				8A9886DC29C58EC5009D6F26 /* UIViewController+Extension.swift in Sources */,
 				8A9886F829C58ECB009D6F26 /* MyPageViewController.swift in Sources */,
 				8A9886F529C58ECB009D6F26 /* HomeViewController.swift in Sources */,
