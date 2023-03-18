@@ -44,6 +44,9 @@
 		8A9886EF29C58ECB009D6F26 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8A9886F129C58ECB009D6F26 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		8A98870C29C5926F009D6F26 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		8A98872A29C5A6EC009D6F26 /* NotoSansKR-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Bold.otf"; sourceTree = "<group>"; };
+		8A98872B29C5A6F2009D6F26 /* NotoSansKR-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Medium.otf"; sourceTree = "<group>"; };
+		8A98872C29C5A71E009D6F26 /* NotoSansKR-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Regular.otf"; sourceTree = "<group>"; };
 		8AB159BA29C58CB1002D4104 /* MoaMoa-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MoaMoa-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AB159C629C58CB1002D4104 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8AB159C929C58CB1002D4104 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -89,6 +92,9 @@
 		8A9886D829C58EC5009D6F26 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				8A98872A29C5A6EC009D6F26 /* NotoSansKR-Bold.otf */,
+				8A98872B29C5A6F2009D6F26 /* NotoSansKR-Medium.otf */,
+				8A98872C29C5A71E009D6F26 /* NotoSansKR-Regular.otf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -439,6 +445,8 @@
 				DEVELOPMENT_TEAM = VT34K852T5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "MoaMoa-ios/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -466,6 +474,8 @@
 				DEVELOPMENT_TEAM = VT34K852T5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "MoaMoa-ios/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
