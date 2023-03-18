@@ -8,7 +8,6 @@
 import SnapKit
 import Then
 import UIKit
-import SwiftUI
 
 class HomeViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     //MARK: - Properties
@@ -227,28 +226,5 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 100
     }
-}
-//MARK: - swiftUI
-
-struct MyViewController_PreViews: PreviewProvider {
-static var previews: some View {
-    HomeViewController().toPreview() //원하는 VC를 여기다 입력하면 된다.
-}
-}
-extension UIViewController {
-private struct Preview: UIViewControllerRepresentable {
-        let HomeViewController: UIViewController
-
-        func makeUIViewController(context: Context) -> UIViewController {
-            return HomeViewController
-        }
-
-        func updateUIViewController(_ uiViewController: UIViewController, context: Context) {
-        }
-    }
-
-func toPreview() -> some View {
-    Preview(HomeViewController: self)
-}
 }
 
