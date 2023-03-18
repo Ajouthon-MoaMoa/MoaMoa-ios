@@ -4,9 +4,14 @@
 <dict>
 	<key>UIAppFonts</key>
 	<array>
-		<string>NotoSansKR-Bold</string>
-		<string>NotoSansKR-Medium</string>
-		<string>NotoSansKR-Regular</string>
+		<string>Pretendard-Bold.otf</string>
+		<string>Pretendard-Regular.otf</string>
+		<string>Pretendard-Light.otf</string>
+		<string>Pretendard-ExtraBold.otf</string>
+		<string>Pretendard-ExtraLight.otf</string>
+		<string>Pretendard-Medium.otf</string>
+		<string>Pretendard-SemiBold.otf</string>
+		<string>Pretendard-Thin.otf</string>
 	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
