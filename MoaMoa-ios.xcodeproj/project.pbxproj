@@ -35,6 +35,9 @@
 		8A98876329C5F649009D6F26 /* Pretendard-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8A98875B29C5F649009D6F26 /* Pretendard-ExtraLight.otf */; };
 		8A98876429C5F649009D6F26 /* Pretendard-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8A98875C29C5F649009D6F26 /* Pretendard-SemiBold.otf */; };
 		8A98876629C5F727009D6F26 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A98876529C5F727009D6F26 /* UIFont+Extension.swift */; };
+		8A98876A29C5F974009D6F26 /* ExploreMembersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A98876729C5F974009D6F26 /* ExploreMembersTableViewCell.swift */; };
+		8A98876B29C5F974009D6F26 /* CommunitySearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A98876829C5F974009D6F26 /* CommunitySearchBarView.swift */; };
+		8A98876C29C5F974009D6F26 /* ExploreMembersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A98876929C5F974009D6F26 /* ExploreMembersView.swift */; };
 		8AB159C729C58CB1002D4104 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AB159C629C58CB1002D4104 /* Assets.xcassets */; };
 		8AB159CA29C58CB1002D4104 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AB159C829C58CB1002D4104 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -62,6 +65,9 @@
 		8A98875B29C5F649009D6F26 /* Pretendard-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-ExtraLight.otf"; sourceTree = "<group>"; };
 		8A98875C29C5F649009D6F26 /* Pretendard-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-SemiBold.otf"; sourceTree = "<group>"; };
 		8A98876529C5F727009D6F26 /* UIFont+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
+		8A98876729C5F974009D6F26 /* ExploreMembersTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExploreMembersTableViewCell.swift; sourceTree = "<group>"; };
+		8A98876829C5F974009D6F26 /* CommunitySearchBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommunitySearchBarView.swift; sourceTree = "<group>"; };
+		8A98876929C5F974009D6F26 /* ExploreMembersView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExploreMembersView.swift; sourceTree = "<group>"; };
 		8AB159BA29C58CB1002D4104 /* MoaMoa-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MoaMoa-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AB159C629C58CB1002D4104 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8AB159C929C58CB1002D4104 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -167,6 +173,9 @@
 			isa = PBXGroup;
 			children = (
 				8A9886E929C58ECB009D6F26 /* ExploreMembersViewController.swift */,
+				8A98876829C5F974009D6F26 /* CommunitySearchBarView.swift */,
+				8A98876729C5F974009D6F26 /* ExploreMembersTableViewCell.swift */,
+				8A98876929C5F974009D6F26 /* ExploreMembersView.swift */,
 			);
 			path = ExploreMembersView;
 			sourceTree = "<group>";
@@ -330,18 +339,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A9886F729C58ECB009D6F26 /* ExploreMembersViewController.swift in Sources */,
+				8A98876A29C5F974009D6F26 /* ExploreMembersTableViewCell.swift in Sources */,
 				8A9886FB29C58ECB009D6F26 /* AppDelegate.swift in Sources */,
 				8A9886F229C58ECB009D6F26 /* NetworkResult.swift in Sources */,
 				8A9886FC29C58ECB009D6F26 /* SceneDelegate.swift in Sources */,
 				8A9886DC29C58EC5009D6F26 /* UIViewController+Extension.swift in Sources */,
 				8A9886F829C58ECB009D6F26 /* MyPageViewController.swift in Sources */,
 				8A9886F529C58ECB009D6F26 /* HomeViewController.swift in Sources */,
+				8A98876C29C5F974009D6F26 /* ExploreMembersView.swift in Sources */,
 				8A9886DB29C58EC5009D6F26 /* Constant.swift in Sources */,
 				8A9886F429C58ECB009D6F26 /* ViewController.swift in Sources */,
 				8A9886FA29C58ECB009D6F26 /* TabBarController.swift in Sources */,
 				8A98876629C5F727009D6F26 /* UIFont+Extension.swift in Sources */,
 				8A9886F929C58ECB009D6F26 /* LoginViewController.swift in Sources */,
 				8A9886F329C58ECB009D6F26 /* GenericResponse.swift in Sources */,
+				8A98876B29C5F974009D6F26 /* CommunitySearchBarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
