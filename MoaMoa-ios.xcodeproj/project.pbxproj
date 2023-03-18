@@ -27,6 +27,15 @@
 		8A98870929C59064009D6F26 /* ReactiveMoya in Frameworks */ = {isa = PBXBuildFile; productRef = 8A98870829C59064009D6F26 /* ReactiveMoya */; };
 		8A98870B29C59064009D6F26 /* RxMoya in Frameworks */ = {isa = PBXBuildFile; productRef = 8A98870A29C59064009D6F26 /* RxMoya */; };
 		8A98870D29C5926F009D6F26 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 8A98870C29C5926F009D6F26 /* .gitignore */; };
+		8A98875D29C5F649009D6F26 /* Pretendard-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8A98875529C5F649009D6F26 /* Pretendard-Regular.otf */; };
+		8A98875E29C5F649009D6F26 /* Pretendard-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8A98875629C5F649009D6F26 /* Pretendard-Medium.otf */; };
+		8A98875F29C5F649009D6F26 /* Pretendard-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8A98875729C5F649009D6F26 /* Pretendard-Light.otf */; };
+		8A98876029C5F649009D6F26 /* Pretendard-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8A98875829C5F649009D6F26 /* Pretendard-ExtraBold.otf */; };
+		8A98876129C5F649009D6F26 /* Pretendard-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8A98875929C5F649009D6F26 /* Pretendard-Bold.otf */; };
+		8A98876229C5F649009D6F26 /* Pretendard-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8A98875A29C5F649009D6F26 /* Pretendard-Thin.otf */; };
+		8A98876329C5F649009D6F26 /* Pretendard-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8A98875B29C5F649009D6F26 /* Pretendard-ExtraLight.otf */; };
+		8A98876429C5F649009D6F26 /* Pretendard-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8A98875C29C5F649009D6F26 /* Pretendard-SemiBold.otf */; };
+		8A98876629C5F727009D6F26 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A98876529C5F727009D6F26 /* UIFont+Extension.swift */; };
 		8AB159C729C58CB1002D4104 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AB159C629C58CB1002D4104 /* Assets.xcassets */; };
 		8AB159CA29C58CB1002D4104 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AB159C829C58CB1002D4104 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -46,6 +55,15 @@
 		8A9886EF29C58ECB009D6F26 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8A9886F129C58ECB009D6F26 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		8A98870C29C5926F009D6F26 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		8A98875529C5F649009D6F26 /* Pretendard-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Regular.otf"; sourceTree = "<group>"; };
+		8A98875629C5F649009D6F26 /* Pretendard-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Medium.otf"; sourceTree = "<group>"; };
+		8A98875729C5F649009D6F26 /* Pretendard-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Light.otf"; sourceTree = "<group>"; };
+		8A98875829C5F649009D6F26 /* Pretendard-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-ExtraBold.otf"; sourceTree = "<group>"; };
+		8A98875929C5F649009D6F26 /* Pretendard-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Bold.otf"; sourceTree = "<group>"; };
+		8A98875A29C5F649009D6F26 /* Pretendard-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Thin.otf"; sourceTree = "<group>"; };
+		8A98875B29C5F649009D6F26 /* Pretendard-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-ExtraLight.otf"; sourceTree = "<group>"; };
+		8A98875C29C5F649009D6F26 /* Pretendard-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-SemiBold.otf"; sourceTree = "<group>"; };
+		8A98876529C5F727009D6F26 /* UIFont+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
 		8AB159BA29C58CB1002D4104 /* MoaMoa-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MoaMoa-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AB159C629C58CB1002D4104 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8AB159C929C58CB1002D4104 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -84,6 +102,7 @@
 			children = (
 				8A9886D629C58EC5009D6F26 /* Constant.swift */,
 				8A9886D729C58EC5009D6F26 /* UIViewController+Extension.swift */,
+				8A98876529C5F727009D6F26 /* UIFont+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -91,6 +110,7 @@
 		8A9886D829C58EC5009D6F26 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				8A98875429C5F649009D6F26 /* Pretendard-Font */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -175,6 +195,21 @@
 			children = (
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		8A98875429C5F649009D6F26 /* Pretendard-Font */ = {
+			isa = PBXGroup;
+			children = (
+				8A98875529C5F649009D6F26 /* Pretendard-Regular.otf */,
+				8A98875629C5F649009D6F26 /* Pretendard-Medium.otf */,
+				8A98875729C5F649009D6F26 /* Pretendard-Light.otf */,
+				8A98875829C5F649009D6F26 /* Pretendard-ExtraBold.otf */,
+				8A98875929C5F649009D6F26 /* Pretendard-Bold.otf */,
+				8A98875A29C5F649009D6F26 /* Pretendard-Thin.otf */,
+				8A98875B29C5F649009D6F26 /* Pretendard-ExtraLight.otf */,
+				8A98875C29C5F649009D6F26 /* Pretendard-SemiBold.otf */,
+			);
+			path = "Pretendard-Font";
 			sourceTree = "<group>";
 		};
 		8AB159B129C58CB1002D4104 = {
@@ -276,9 +311,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A98876429C5F649009D6F26 /* Pretendard-SemiBold.otf in Resources */,
 				8AB159CA29C58CB1002D4104 /* LaunchScreen.storyboard in Resources */,
+				8A98876129C5F649009D6F26 /* Pretendard-Bold.otf in Resources */,
+				8A98876329C5F649009D6F26 /* Pretendard-ExtraLight.otf in Resources */,
+				8A98875E29C5F649009D6F26 /* Pretendard-Medium.otf in Resources */,
+				8A98876229C5F649009D6F26 /* Pretendard-Thin.otf in Resources */,
+				8A98876029C5F649009D6F26 /* Pretendard-ExtraBold.otf in Resources */,
+				8A98875D29C5F649009D6F26 /* Pretendard-Regular.otf in Resources */,
 				8A98870D29C5926F009D6F26 /* .gitignore in Resources */,
 				8AB159C729C58CB1002D4104 /* Assets.xcassets in Resources */,
+				8A98875F29C5F649009D6F26 /* Pretendard-Light.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +343,7 @@
 				8A9886DB29C58EC5009D6F26 /* Constant.swift in Sources */,
 				8A9886F429C58ECB009D6F26 /* ViewController.swift in Sources */,
 				8A9886FA29C58ECB009D6F26 /* TabBarController.swift in Sources */,
+				8A98876629C5F727009D6F26 /* UIFont+Extension.swift in Sources */,
 				8A9886F929C58ECB009D6F26 /* LoginViewController.swift in Sources */,
 				8A9886F329C58ECB009D6F26 /* GenericResponse.swift in Sources */,
 			);
@@ -443,6 +487,8 @@
 				DEVELOPMENT_TEAM = VT34K852T5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "MoaMoa-ios/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -470,6 +516,8 @@
 				DEVELOPMENT_TEAM = VT34K852T5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "MoaMoa-ios/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
