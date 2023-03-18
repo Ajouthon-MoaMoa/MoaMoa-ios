@@ -35,25 +35,25 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
     }
     
     lazy var firstBtn = UIButton().then {
-        $0.setTitle("first", for: .normal)
+        $0.setTitle("파란 학기 팀원 구해요~", for: .normal)
         $0.setTitleColor(.white, for: .normal)
         $0.backgroundColor = UIColor(red: 0.51, green: 0.33, blue: 1.0, alpha: 1.0)
         $0.layer.cornerRadius = 10
     }
     lazy var secondBtn = UIButton().then {
-        $0.setTitle("second", for: .normal)
+        $0.setTitle("학과별로 모아~", for: .normal)
         $0.setTitleColor(.white, for: .normal)
         $0.backgroundColor = .systemOrange
         $0.layer.cornerRadius = 10
     }
     lazy var thirdBtn = UIButton().then {
-        $0.setTitle("third", for: .normal)
+        $0.setTitle("내가 관심있는 분야는?", for: .normal)
         $0.setTitleColor(.white, for: .normal)
         $0.backgroundColor = .systemRed
         $0.layer.cornerRadius = 10
     }
     lazy var fourthBtn = UIButton().then {
-        $0.setTitle("fourth", for: .normal)
+        $0.setTitle("졸업 작품 같이 해보자~", for: .normal)
         $0.setTitleColor(.white, for: .normal)
         $0.backgroundColor = .systemCyan
         $0.layer.cornerRadius = 10

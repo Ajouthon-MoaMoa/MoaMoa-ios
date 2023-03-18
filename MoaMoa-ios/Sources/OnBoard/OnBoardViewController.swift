@@ -137,6 +137,7 @@ class BaseStepViewController: UIViewController {
     }
 }
 class FirstStepViewController: BaseStepViewController {
+    
     override init() {
         super.init()
     }
@@ -175,11 +176,12 @@ class FirstStepViewController: BaseStepViewController {
         setUI()
         bind()
         validNickNameView.isHidden = true
+      
     }
     
     let contentView = UIView()
     let celebrationLabel: UILabel = {
-        $0.text = "가입을 축하드립니다.\n닉네임을 설정해주세요."
+        $0.text = "가입을 축하드립니다.\n닉네임과 학과를 설정해주세요."
         $0.font = .pretendardFont(size: 24, style: .bold)
         $0.numberOfLines = 0
         return $0
@@ -208,6 +210,7 @@ class FirstStepViewController: BaseStepViewController {
         }
         [celebrationLabel, nickNameLabel, nickNameInputView, checkButton, validNickNameView].forEach { contentView.addSubview($0) }
         
+
         celebrationLabel.snp.makeConstraints {
             $0.top.equalToSuperview().offset(43)
             $0.leading.equalToSuperview().inset(20)
@@ -244,33 +247,14 @@ enum GenderSelection: Int {
     func asString() -> String {
         switch self {
         case .man:
-            return "남자"
+            return "교내"
         case .woman:
-            return "여자"
+            return "교외"
         }
     }
 }
-class SecondStepViewController: BaseStepViewController,UIPickerViewDelegate, UIPickerViewDataSource {
-    let numbersString: [String] = ["수학과","물리학과","화학과","생명과학과","경영학과","금융공학과","국어국문학과","영어영문학과","불어불문학과","사학과","문화콘텐츠학과","기계공학과", "전자공학과", "소프트웨어학과", "디지털미디어학과", "경제학과", "심리학과", "정치외교학과", "행정학과", "의학과", "간호학과", "약학과"]
-    var selectRow = 0
-    let label = UILabel()
-
-    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
-        return numbersString[row]
-    }
+class SecondStepViewController: BaseStepViewController {
     
-    func numberOfComponents(in pickerView: UIPickerView) -> Int {
-        return 1
-    }
-    
-    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
-        return numbersString.count
-    }
-    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
-        selectRow = row
-        print(numbersString[selectRow])
-        
-    }
 
     func bind() {
         completeButton.rx.tap
@@ -295,22 +279,22 @@ class SecondStepViewController: BaseStepViewController,UIPickerViewDelegate, UIP
         switch type {
         case .man:
             manView.layer.borderColor = UIColor.appColor(.primary).cgColor
-            manImageView.image = UIImage(named: "man_fill")
+            manImageView.image = UIImage(named: "school_fill")
             manLabel.textColor = .appColor(.primary)
             manView.backgroundColor = .init(hex: "#F0EEFFFF")
             
             womanView.layer.borderColor = UIColor(hex: "#EDEDEDFF")?.cgColor
-            womanImageView.image = UIImage(named: "woman")
+            womanImageView.image = UIImage(named: "people")
             womanLabel.textColor = UIColor(hex: "#C5C6CAFF")
             womanView.backgroundColor = .white
         case .woman:
             womanView.layer.borderColor = UIColor.appColor(.primary).cgColor
-            womanImageView.image = UIImage(named: "woman_fill")
+            womanImageView.image = UIImage(named: "people_fill")
             womanLabel.textColor = .appColor(.primary)
             womanView.backgroundColor = .init(hex: "#F0EEFFFF")
             
             manView.layer.borderColor = UIColor(hex: "#EDEDEDFF")?.cgColor
-            manImageView.image = UIImage(named: "man")
+            manImageView.image = UIImage(named: "school")
             manLabel.textColor = UIColor(hex: "#C5C6CAFF")
             manView.backgroundColor = .white
         }
@@ -334,8 +318,7 @@ class SecondStepViewController: BaseStepViewController,UIPickerViewDelegate, UIP
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        pickerView.delegate = self
-        pickerView.dataSource = self
+        
         
     }
     let contentView = UIView()
@@ -348,7 +331,7 @@ class SecondStepViewController: BaseStepViewController,UIPickerViewDelegate, UIP
         return $0
     }(UIView())
     let manImageView: UIImageView = {
-        $0.image = UIImage(named: "man")
+        $0.image = UIImage(named: "school")
         return $0
     }(UIImageView())
     let manLabel: UILabel = {
@@ -364,7 +347,7 @@ class SecondStepViewController: BaseStepViewController,UIPickerViewDelegate, UIP
         return $0
     }(UIView())
     let womanImageView: UIImageView = {
-        $0.image = UIImage(named: "woman")
+        $0.image = UIImage(named: "people")
         return $0
     }(UIImageView())
     let womanLabel: UILabel = {
@@ -375,7 +358,7 @@ class SecondStepViewController: BaseStepViewController,UIPickerViewDelegate, UIP
     
     
     let titleLabel: UILabel = {
-        $0.text = "학과가\n어떻게 되시나요?"
+        $0.text = "어느 환경에서 \n프로젝트를 진행하고 싶나요?"
         $0.numberOfLines = 0
         $0.font = .pretendardFont(size: 24, style: .bold)
         return $0
@@ -396,13 +379,7 @@ class SecondStepViewController: BaseStepViewController,UIPickerViewDelegate, UIP
         
         [manImageView, manLabel].forEach { manView.addSubview($0) }
         [womanImageView, womanLabel].forEach { womanView.addSubview($0) }
-        view.addSubview(pickerView)
-        pickerView.snp.makeConstraints{
-            $0.width.equalTo(350)
-            $0.height.equalTo(150)
-            $0.centerX.equalToSuperview()
-            $0.bottom.equalToSuperview().inset(130)
-        }
+        
         manImageView.snp.makeConstraints {
             $0.width.height.equalTo(85)
             $0.centerX.equalToSuperview()
@@ -476,7 +453,7 @@ class ThirdStepViewController: BaseStepViewController {
     }
     let contentView = UIView()
     let skipButton: UILabel = {
-        $0.text = "Skip"
+        $0.text = ""
         $0.textColor = .appColor(.gray5)
         return $0
     }(UILabel())
