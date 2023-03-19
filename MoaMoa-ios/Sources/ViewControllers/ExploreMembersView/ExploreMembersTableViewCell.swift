@@ -21,6 +21,17 @@ class ExploreMembersTableViewCell: UITableViewCell {
     }
 
     let profileImageBtn = UIButton()
+    
+    lazy var contactBtn = UIButton().then {
+        $0.backgroundColor = UIColor(red: 0.502, green: 0.443, blue: 0.988, alpha: 1)
+        $0.layer.cornerRadius = 8
+    }
+    
+    let contactLbl = UILabel().then {
+        $0.text = "연락하기"
+        $0.textColor = .white
+        $0.font = UIFont.notosans(size: 16, family: .regular)
+    }
 
     var profileImageView = UIImageView().then {
         $0.image = UIImage(named: "Profile-small")
@@ -72,9 +83,10 @@ class ExploreMembersTableViewCell: UITableViewCell {
 
     func setUpView() {
         self.contentView.addSubview(baseView)
-        [profileImageView, nicknameLbl, majorLbl, dateLbl, contentLbl].forEach {
+        [contactBtn, profileImageView, nicknameLbl, majorLbl, dateLbl, contentLbl].forEach {
             baseView.addSubview($0)
         }
+        self.contactBtn.addSubview(contactLbl)
         self.profileImageView.addSubview(profileImageBtn)
     }
 
@@ -84,6 +96,14 @@ class ExploreMembersTableViewCell: UITableViewCell {
             $0.bottom.equalToSuperview().offset(-8)
             $0.leading.equalToSuperview().offset(12)
             $0.trailing.equalToSuperview().offset(-12)
+        }
+        contactBtn.snp.makeConstraints {
+            $0.centerY.equalTo(profileImageBtn)
+            $0.trailing.equalToSuperview().inset(15)
+            $0.width.equalTo(contactLbl).offset(20)
+        }
+        contactLbl.snp.makeConstraints {
+            $0.center.equalToSuperview()
         }
         profileImageView.snp.makeConstraints {
             $0.top.equalTo(28)
