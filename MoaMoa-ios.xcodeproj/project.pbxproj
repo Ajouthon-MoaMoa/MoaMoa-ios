@@ -23,6 +23,13 @@
 		07131AF229C60B0D00BACFC0 /* UIImage+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07131AF129C60B0D00BACFC0 /* UIImage+.swift */; };
 		07131AF429C60B9E00BACFC0 /* Asset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07131AF329C60B9E00BACFC0 /* Asset.swift */; };
 		07131AF829C60BFA00BACFC0 /* BaseTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07131AF729C60BFA00BACFC0 /* BaseTextField.swift */; };
+		07131AFF29C686A300BACFC0 /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07131AF929C686A200BACFC0 /* MyPageViewController.swift */; };
+		07131B0229C686A300BACFC0 /* ResumeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07131AFC29C686A300BACFC0 /* ResumeView.swift */; };
+		07131B0429C686A300BACFC0 /* NicknameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07131AFE29C686A300BACFC0 /* NicknameView.swift */; };
+		07131B0629C687BF00BACFC0 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07131B0529C687BF00BACFC0 /* SettingView.swift */; };
+		07131B0829C687C300BACFC0 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07131B0729C687C300BACFC0 /* SettingViewController.swift */; };
+		07131B0A29C687C500BACFC0 /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07131B0929C687C500BACFC0 /* EditProfileView.swift */; };
+		07131B0C29C687CD00BACFC0 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07131B0B29C687CD00BACFC0 /* EditProfileViewController.swift */; };
 		8A9886DB29C58EC5009D6F26 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9886D629C58EC5009D6F26 /* Constant.swift */; };
 		8A9886DC29C58EC5009D6F26 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9886D729C58EC5009D6F26 /* UIViewController+Extension.swift */; };
 		8A9886F229C58ECB009D6F26 /* NetworkResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9886E029C58ECB009D6F26 /* NetworkResult.swift */; };
@@ -30,7 +37,7 @@
 		8A9886F429C58ECB009D6F26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9886E329C58ECB009D6F26 /* ViewController.swift */; };
 		8A9886F529C58ECB009D6F26 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9886E529C58ECB009D6F26 /* HomeViewController.swift */; };
 		8A9886F729C58ECB009D6F26 /* ExploreMembersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9886E929C58ECB009D6F26 /* ExploreMembersViewController.swift */; };
-		8A9886F829C58ECB009D6F26 /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9886EB29C58ECB009D6F26 /* MyPageViewController.swift */; };
+		8A9886F829C58ECB009D6F26 /* MyPageViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9886EB29C58ECB009D6F26 /* MyPageViewController2.swift */; };
 		8A9886F929C58ECB009D6F26 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9886ED29C58ECB009D6F26 /* LoginViewController.swift */; };
 		8A9886FA29C58ECB009D6F26 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9886EE29C58ECB009D6F26 /* TabBarController.swift */; };
 		8A9886FB29C58ECB009D6F26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9886EF29C58ECB009D6F26 /* AppDelegate.swift */; };
@@ -73,6 +80,13 @@
 		07131AF129C60B0D00BACFC0 /* UIImage+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+.swift"; sourceTree = "<group>"; };
 		07131AF329C60B9E00BACFC0 /* Asset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asset.swift; sourceTree = "<group>"; };
 		07131AF729C60BFA00BACFC0 /* BaseTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTextField.swift; sourceTree = "<group>"; };
+		07131AF929C686A200BACFC0 /* MyPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyPageViewController.swift; path = ../../../../../../Downloads/MyPageView/MyPageViewController.swift; sourceTree = "<group>"; };
+		07131AFC29C686A300BACFC0 /* ResumeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResumeView.swift; sourceTree = "<group>"; };
+		07131AFE29C686A300BACFC0 /* NicknameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NicknameView.swift; sourceTree = "<group>"; };
+		07131B0529C687BF00BACFC0 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		07131B0729C687C300BACFC0 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		07131B0929C687C500BACFC0 /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
+		07131B0B29C687CD00BACFC0 /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
 		8A9886D629C58EC5009D6F26 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		8A9886D729C58EC5009D6F26 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 		8A9886E029C58ECB009D6F26 /* NetworkResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkResult.swift; sourceTree = "<group>"; };
@@ -80,7 +94,7 @@
 		8A9886E329C58ECB009D6F26 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8A9886E529C58ECB009D6F26 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		8A9886E929C58ECB009D6F26 /* ExploreMembersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExploreMembersViewController.swift; sourceTree = "<group>"; };
-		8A9886EB29C58ECB009D6F26 /* MyPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
+		8A9886EB29C58ECB009D6F26 /* MyPageViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPageViewController2.swift; sourceTree = "<group>"; };
 		8A9886ED29C58ECB009D6F26 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		8A9886EE29C58ECB009D6F26 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		8A9886EF29C58ECB009D6F26 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -249,7 +263,14 @@
 		8A9886EA29C58ECB009D6F26 /* MyPageView */ = {
 			isa = PBXGroup;
 			children = (
-				8A9886EB29C58ECB009D6F26 /* MyPageViewController.swift */,
+				07131AF929C686A200BACFC0 /* MyPageViewController.swift */,
+				07131AFE29C686A300BACFC0 /* NicknameView.swift */,
+				07131B0529C687BF00BACFC0 /* SettingView.swift */,
+				07131B0729C687C300BACFC0 /* SettingViewController.swift */,
+				07131B0929C687C500BACFC0 /* EditProfileView.swift */,
+				07131B0B29C687CD00BACFC0 /* EditProfileViewController.swift */,
+				07131AFC29C686A300BACFC0 /* ResumeView.swift */,
+				8A9886EB29C58ECB009D6F26 /* MyPageViewController2.swift */,
 			);
 			path = MyPageView;
 			sourceTree = "<group>";
@@ -422,24 +443,31 @@
 				07131AEE29C60AA300BACFC0 /* UIViewController+Rx.swift in Sources */,
 				8A9886DC29C58EC5009D6F26 /* UIViewController+Extension.swift in Sources */,
 				07131AE229C607D700BACFC0 /* UserDefaultManager.swift in Sources */,
-				8A9886F829C58ECB009D6F26 /* MyPageViewController.swift in Sources */,
+				07131B0429C686A300BACFC0 /* NicknameView.swift in Sources */,
+				8A9886F829C58ECB009D6F26 /* MyPageViewController2.swift in Sources */,
+				07131B0229C686A300BACFC0 /* ResumeView.swift in Sources */,
 				8A9886F529C58ECB009D6F26 /* HomeViewController.swift in Sources */,
 				8A98876C29C5F974009D6F26 /* ExploreMembersView.swift in Sources */,
 				8A9886DB29C58EC5009D6F26 /* Constant.swift in Sources */,
 				07131ADB29C6066E00BACFC0 /* SignUpViewController.swift in Sources */,
 				8A9886F429C58ECB009D6F26 /* ViewController.swift in Sources */,
 				07131AF429C60B9E00BACFC0 /* Asset.swift in Sources */,
+				07131AFF29C686A300BACFC0 /* MyPageViewController.swift in Sources */,
 				8A9886FA29C58ECB009D6F26 /* TabBarController.swift in Sources */,
 				07131AF029C60ADB00BACFC0 /* UITextField+.swift in Sources */,
 				07131AE829C6095400BACFC0 /* OnBoardViewController.swift in Sources */,
+				07131B0829C687C300BACFC0 /* SettingViewController.swift in Sources */,
 				07131AF229C60B0D00BACFC0 /* UIImage+.swift in Sources */,
 				07131AEC29C60A5100BACFC0 /* UIColor+.swift in Sources */,
+				07131B0C29C687CD00BACFC0 /* EditProfileViewController.swift in Sources */,
+				07131B0A29C687C500BACFC0 /* EditProfileView.swift in Sources */,
 				8A98876629C5F727009D6F26 /* UIFont+Extension.swift in Sources */,
 				07131AF829C60BFA00BACFC0 /* BaseTextField.swift in Sources */,
 				07131ADF29C6072F00BACFC0 /* SimpleInputView.swift in Sources */,
 				07131AEA29C6096000BACFC0 /* BaseTextView.swift in Sources */,
 				07131ADD29C606B400BACFC0 /* WarningView.swift in Sources */,
 				8A9886F929C58ECB009D6F26 /* LoginViewController.swift in Sources */,
+				07131B0629C687BF00BACFC0 /* SettingView.swift in Sources */,
 				8A9886F329C58ECB009D6F26 /* GenericResponse.swift in Sources */,
 				8A98876B29C5F974009D6F26 /* CommunitySearchBarView.swift in Sources */,
 			);

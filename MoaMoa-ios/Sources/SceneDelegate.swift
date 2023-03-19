@@ -25,13 +25,17 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         window = UIWindow(windowScene: windowScene)
 //        window?.rootViewController = TabBarViewController()
-       /* UserDefaultManager.user = .init(nickName: "", gender: "", id: "'", password: "'", phoneNumber: "")
+        
+//        window?.rootViewController = TabBarController()
+//        window?.makeKeyAndVisible()
+        
+        UserDefaultManager.user = .init(nickName: "", gender: "", id: "'", password: "'", phoneNumber: "")
         if UserDefaultManager.user.nickName == "" {
             window?.rootViewController = UINavigationController(rootViewController: LoginViewController(viewModel: .init()))
 
         } else {
-         */   window?.rootViewController = MyPageViewController()
-        //}
+            window?.rootViewController = TabBarController()
+        }
         window?.makeKeyAndVisible()
     }
 

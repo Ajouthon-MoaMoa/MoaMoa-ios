@@ -33,13 +33,13 @@ class CommunitySearchBarView: UIView, UITextFieldDelegate, UITextViewDelegate {
     let paranLabel = UILabel().then {
         $0.text = "파란학기"
         $0.textColor = UIColor(red: 0.502, green: 0.443, blue: 0.988, alpha: 1)
-        $0.font = UIFont.notosans(size: 16, family: .regular)
+        $0.font = UIFont.notosans(size: 13, family: .regular)
     }
     
     lazy var paranBtn = UIButton().then {
         $0.backgroundColor = .white
-        $0.layer.borderColor = UIColor(red: 0.502, green: 0.443, blue: 0.988, alpha: 1).cgColor
-        $0.layer.borderWidth = 1
+//        $0.layer.borderColor = UIColor(red: 0.502, green: 0.443, blue: 0.988, alpha: 1).cgColor
+//        $0.layer.borderWidth = 1
         $0.layer.cornerRadius = 12
         $0.tag = 0
     }
@@ -47,13 +47,13 @@ class CommunitySearchBarView: UIView, UITextFieldDelegate, UITextViewDelegate {
     let capstoneLabel = UILabel().then {
         $0.text = "캡스톤디자인"
         $0.textColor = UIColor(red: 0.502, green: 0.443, blue: 0.988, alpha: 1)
-        $0.font = UIFont.notosans(size: 16, family: .regular)
+        $0.font = UIFont.notosans(size: 13, family: .regular)
     }
 
     lazy var capstoneBtn = UIButton().then {
         $0.backgroundColor = .white
-        $0.layer.borderColor = UIColor(red: 0.502, green: 0.443, blue: 0.988, alpha: 1).cgColor
-        $0.layer.borderWidth = 1
+//        $0.layer.borderColor = UIColor(red: 0.502, green: 0.443, blue: 0.988, alpha: 1).cgColor
+//        $0.layer.borderWidth = 1
         $0.layer.cornerRadius = 12
         $0.tag = 1
     }
@@ -61,13 +61,13 @@ class CommunitySearchBarView: UIView, UITextFieldDelegate, UITextViewDelegate {
     let sideProjectsLabel = UILabel().then {
         $0.text = "사이드프로젝트"
         $0.textColor = UIColor(red: 0.502, green: 0.443, blue: 0.988, alpha: 1)
-        $0.font = UIFont.notosans(size: 16, family: .regular)
+        $0.font = UIFont.notosans(size: 13, family: .regular)
     }
 
     lazy var sideProjectsBtn = UIButton().then {
         $0.backgroundColor = .white
-        $0.layer.borderColor = UIColor(red: 0.502, green: 0.443, blue: 0.988, alpha: 1).cgColor
-        $0.layer.borderWidth = 1
+//        $0.layer.borderColor = UIColor(red: 0.502, green: 0.443, blue: 0.988, alpha: 1).cgColor
+//        $0.layer.borderWidth = 1
         $0.layer.cornerRadius = 12
         $0.tag = 2
     }
@@ -75,13 +75,13 @@ class CommunitySearchBarView: UIView, UITextFieldDelegate, UITextViewDelegate {
     let othersLabel = UILabel().then {
         $0.text = "기타"
         $0.textColor = UIColor(red: 0.502, green: 0.443, blue: 0.988, alpha: 1)
-        $0.font = UIFont.notosans(size: 16, family: .regular)
+        $0.font = UIFont.notosans(size: 13, family: .regular)
     }
 
     lazy var othersBtn = UIButton().then {
         $0.backgroundColor = .white
-        $0.layer.borderColor = UIColor(red: 0.502, green: 0.443, blue: 0.988, alpha: 1).cgColor
-        $0.layer.borderWidth = 1
+//        $0.layer.borderColor = UIColor(red: 0.502, green: 0.443, blue: 0.988, alpha: 1).cgColor
+//        $0.layer.borderWidth = 1
         $0.layer.cornerRadius = 12
         $0.tag = 3
     }
@@ -106,12 +106,11 @@ class CommunitySearchBarView: UIView, UITextFieldDelegate, UITextViewDelegate {
     func setUpView() {
         addSubview(searchTextField)
         searchTextField.addSubview(searchBtn)
-        [paranBtn, capstoneBtn, sideProjectsBtn, othersBtn].forEach {
+        [paranBtn, capstoneBtn, othersBtn].forEach {
             addSubview($0)
         }
         paranBtn.addSubview(paranLabel)
         capstoneBtn.addSubview(capstoneLabel)
-        sideProjectsBtn.addSubview(sideProjectsLabel)
         othersBtn.addSubview(othersLabel)
         searchTextField.addLeftPadding()
         textFieldDidBeginEditing(searchTextField)
@@ -122,7 +121,6 @@ class CommunitySearchBarView: UIView, UITextFieldDelegate, UITextViewDelegate {
 
 //        paranBtn.addTarget(self, action: #selector(tagButtonPressed), for: .touchUpInside)
         capstoneBtn.addTarget(self, action: #selector(tagButtonPressed), for: .touchUpInside)
-        sideProjectsBtn.addTarget(self, action: #selector(tagButtonPressed), for: .touchUpInside)
         othersBtn.addTarget(self, action: #selector(tagButtonPressed), for: .touchUpInside)
     }
 
@@ -138,13 +136,12 @@ class CommunitySearchBarView: UIView, UITextFieldDelegate, UITextViewDelegate {
         }
         paranLabel.snp.makeConstraints {
             $0.center.equalToSuperview()
+//            $0.leading.trailing.equalToSuperview().inset(5)
         }
         capstoneLabel.snp.makeConstraints {
             $0.center.equalToSuperview()
         }
-        sideProjectsLabel.snp.makeConstraints {
-            $0.center.equalToSuperview()
-        }
+        
         othersLabel.snp.makeConstraints {
             $0.center.equalToSuperview()
         }
@@ -152,26 +149,26 @@ class CommunitySearchBarView: UIView, UITextFieldDelegate, UITextViewDelegate {
             $0.leading.equalTo(searchTextField)
             $0.top.equalTo(searchTextField.snp.bottom).offset(16)
             $0.height.equalTo(Constant.height * 26)
-            $0.width.equalTo(paranLabel).offset(15)
+            $0.width.equalTo(paranLabel).offset(20)
             $0.bottom.equalToSuperview().inset(16)
         }
         capstoneBtn.snp.makeConstraints {
-            $0.leading.equalTo(paranBtn.snp.trailing).offset(5)
+            $0.leading.equalTo(paranBtn.snp.trailing).offset(10)
             $0.centerY.equalTo(paranBtn)
             $0.height.equalTo(paranBtn)
-            $0.width.equalTo(capstoneLabel).offset(15)
-        }
+            $0.width.equalTo(capstoneLabel).offset(20)
+        }/*
         sideProjectsBtn.snp.makeConstraints {
-            $0.leading.equalTo(capstoneBtn.snp.trailing).offset(5)
+            $0.leading.equalTo(capstoneBtn.snp.trailing).offset(10)
             $0.centerY.equalTo(capstoneBtn)
             $0.height.equalTo(capstoneBtn)
-            $0.width.equalTo(sideProjectsLabel).offset(15)
-        }
+            $0.width.equalTo(sideProjectsLabel).offset(20)
+        }*/
         othersBtn.snp.makeConstraints {
-            $0.leading.equalTo(sideProjectsBtn.snp.trailing).offset(5)
-            $0.centerY.equalTo(sideProjectsBtn)
-            $0.height.equalTo(sideProjectsBtn)
-            $0.width.equalTo(othersLabel).offset(15)
+            $0.leading.equalTo(capstoneBtn.snp.trailing).offset(10)
+            $0.centerY.equalTo(capstoneBtn)
+            $0.height.equalTo(capstoneBtn)
+            $0.width.equalTo(othersLabel).offset(20)
         }
     }
 
@@ -195,9 +192,9 @@ class CommunitySearchBarView: UIView, UITextFieldDelegate, UITextViewDelegate {
     // MARK: 텍스트필드 커스텀
     @objc func textFieldDidBeginEditing(_ textField: UITextField) {
 
-        // 텍스트필드 입력 시 테두리 생기게 하기
-        textField.layer.borderWidth = 1
-        textField.layer.borderColor = UIColor(red: 0.188, green: 0.188, blue: 0.188, alpha: 1).cgColor
+//        // 텍스트필드 입력 시 테두리 생기게 하기
+//        textField.layer.borderWidth = 1
+//        textField.layer.borderColor = UIColor(red: 0.188, green: 0.188, blue: 0.188, alpha: 1).cgColor
 
         // 초기 탭 시, 텍스트필드 비우기 (1)
         textField.placeholder = nil

@@ -28,7 +28,7 @@ class ExploreMembersViewController: UIViewController {
 //    var tagData = [String]() // 태그 데이터 배열
 //    var tagData: [String] = []
 
-    var profileImage: [String] = ["Profile-small", "Profile-small", "Profile-small", "Profile-small", "Profile-small"]
+    var profileImage: [String] = ["8", "7", "6", "5", "4"]
     var nickname: [String] = ["김아주", "이아주", "강아주", "유아주", "장아주"]
     var major: [String] = ["불어불문학과", "소프트웨어학과", "경영학과", "미디어학과", "소프트웨어학과"]
     var content: [String] = ["파란학기제 참가하고 싶습니다ㅠㅠ 연락주세요", "이번학기에 캡스톤 팀원으로 데려가주실 분 구합니다,,", "파란학기제 프로젝트 참가 희망합니다\n아무거나 할게요", "파란학기제 참가 원합니다! ", "내용5"]
@@ -55,11 +55,13 @@ class ExploreMembersViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = .white
+//        self.view.backgroundColor = .white
         mainView.tableView.delegate = self
         mainView.tableView.dataSource = self
 //        tagCollectionView.delegate = self
 //        tagCollectionView.dataSource = self
+        view.backgroundColor = UIColor(red: 0.899, green: 0.889, blue: 0.979, alpha: 1)
+        mainView.tableView.backgroundColor = .systemGray6
         mainView.tableView.separatorInset = .init(top: 0, left: 20, bottom: 0, right: 20)
 
         setUpView()
